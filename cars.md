@@ -10,10 +10,10 @@ create un file readme come fatto stamattina in classe con la struttura della tab
 - prezzo | DECIMAL(8, 2) NOTNULL
 - anno | YEAR NULL
 - km | INT NOTNULL
-- condizione | VARCHAR(30)
-- targa | VARCHAR(7)
-- cilindrata | INT
-- cavalli | INT
-- tipo | VARCHAR(30)
-- porte | INT
-- note | TEXT
+- condizione | VARCHAR(30) NULL
+- targa | VARCHAR(7) NULL
+- cilindrata | INT NULL
+- cavalli | INT NULL
+- tipo | VARCHAR(30) NULL
+- porte | INT NULL
+- note | TEXT NULL
