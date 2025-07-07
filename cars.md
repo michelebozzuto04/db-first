@@ -15,5 +15,5 @@ create un file readme come fatto stamattina in classe con la struttura della tab
 - cilindrata | SMALLINT NULL
 - cavalli | SMALLINT NULL
 - tipo | VARCHAR(30) NULL
-- porte | SMALLINT NULL
+- porte | TINYINT NULL
 - note | TEXT NULL
