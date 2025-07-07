@@ -7,13 +7,13 @@ create un file readme come fatto stamattina in classe con la struttura della tab
 - id | INT - PRIMARY_KEY AUTO_INCREMENT NOTNULL UNIQUE
 - marca | VARCHAR(20) NOTNULL
 - modello | VARCHAR(35) NOTNULL
-- prezzo | DECIMAL(8, 2) NOTNULL
+- prezzo | DECIMAL(6, 2) NOTNULL
 - anno | YEAR NULL
-- km | INT NOTNULL
+- km | MEDIUMINT NOTNULL
 - condizione | VARCHAR(30) NULL
 - targa | VARCHAR(7) NULL
-- cilindrata | INT NULL
-- cavalli | INT NULL
+- cilindrata | SMALLINT NULL
+- cavalli | SMALLINT NULL
 - tipo | VARCHAR(30) NULL
-- porte | INT NULL
+- porte | SMALLINT NULL
 - note | TEXT NULL
